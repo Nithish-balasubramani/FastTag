@@ -1,6 +1,8 @@
 {
   "name": "FASTag Inventory",
   "description": "Digital inventory register for FASTag and RFID tags with OCR document verification, multi-tier stock tracking, and immutable movement ledger.",
-  "requestFramePermissions": [],
+  "requestFramePermissions": [
+    "camera"
+  ],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
